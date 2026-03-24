@@ -4,6 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bg_login">#dba67a</color>
     <color name="text_login">#7a5447</color>
+    <color name="text_recipes">#795348</color>
+    <color name="bg_recipes">#fcedd6</color>
 
     <color name="light_blue_600">#039BE5</color>
     <color name="light_blue_A200">#40C4FF</color>

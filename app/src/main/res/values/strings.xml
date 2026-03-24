@@ -3,6 +3,7 @@
     <string name="sign_up">Sign Up</string>
     <string name="log_in">Log In</string>
     <string name="btn">Log In</string>
+    <string name="recipes">Most popular recipes</string>
 
     <!-- layout -->
     <string name="prompt_email">Email</string>
