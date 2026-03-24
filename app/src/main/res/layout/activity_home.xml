@@ -40,11 +40,11 @@
         <TextView
             android:id="@+id/textView3"
             android:layout_width="226dp"
-            android:layout_height="108dp"
+            android:layout_height="117dp"
             android:layout_marginStart="110dp"
             android:layout_marginTop="50dp"
             android:fontFamily="@font/alata"
-            android:text="A latte is a popular coffee drink made with one or two shots of espresso and a larger amount of steamed milk, finished with a thin layer of foam."
+            android:text="@string/frappe"
             android:textSize="14sp" />
     </androidx.cardview.widget.CardView>
 

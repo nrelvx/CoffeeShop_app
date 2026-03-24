@@ -8,7 +8,8 @@
         finished with a thin layer of foam.</string>
     <string name="americano">Prepared by diluting an espresso with hot water, giving it a similar strength to,
         but different flavor from, traditionally brewed coffee.</string>
-    <string name="frappe"></string>
+    <string name="frappe">Originating in Greece. Versatile, iced beverage often shaken, blended, or beaten to produce a thick foam,
+        typically made with instant coffee, sugar, milk, and ice. </string>
 
     <!-- layout -->
     <string name="prompt_email">Email</string>
