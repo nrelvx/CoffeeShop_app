@@ -18,6 +18,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView4">
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:clickable="true"
+            app:backgroundTint="@color/bg_recipes"
+            app:fabCustomSize="40dp"
+            app:srcCompat="@drawable/favorite" />
+
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="91dp"
@@ -86,6 +96,16 @@
             android:fontFamily="@font/alata"
             android:text="@string/latte"
             android:textSize="14sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:clickable="true"
+            app:backgroundTint="@color/bg_recipes"
+            app:fabCustomSize="40dp"
+            app:srcCompat="@drawable/favorite" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -98,6 +118,16 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:clickable="true"
+            app:backgroundTint="@color/bg_recipes"
+            app:fabCustomSize="40dp"
+            app:srcCompat="@drawable/favorite" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -133,19 +163,29 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:background="@drawable/bg_text_rounded"
+        android:layout_marginTop="72dp"
         android:fontFamily="@font/baloo"
         android:paddingStart="16dp"
         android:paddingTop="8dp"
         android:paddingEnd="16dp"
         android:paddingBottom="8dp"
         android:text="@string/recipes"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textColor="@color/text_recipes"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="170dp"
+        android:layout_height="5dp"
+        android:background="@color/text_recipes"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
