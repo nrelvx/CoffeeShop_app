@@ -9,37 +9,94 @@
     tools:context=".HomeActivity">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
         android:layout_width="350dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="64dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="32dp"
         app:cardCornerRadius="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
-        android:layout_width="350dp"
-        android:layout_height="150dp"
-        app:cardCornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.805" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="109dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/latte_macchiato_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/baloo"
+            android:text="Latte"
+            android:textColor="@color/text_recipes"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="226dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/alata"
+            android:text="A latte is a popular coffee drink made with one or two shots of espresso and a larger amount of steamed milk, finished with a thin layer of foam."
+            android:textSize="14sp" />
+    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
         android:layout_width="350dp"
         android:layout_height="170dp"
+        android:layout_marginTop="64dp"
         app:cardCornerRadius="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="109dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/latte_macchiato_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/baloo"
+            android:text="Latte"
+            android:textColor="@color/text_recipes"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="226dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/alata"
+            android:text="A latte is a popular coffee drink made with one or two shots of espresso and a larger amount of steamed milk, finished with a thin layer of foam."
+            android:textSize="14sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
         <ImageView
             android:id="@+id/imageView2"
