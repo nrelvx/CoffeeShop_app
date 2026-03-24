@@ -4,6 +4,11 @@
     <string name="log_in">Log In</string>
     <string name="btn">Log In</string>
     <string name="recipes">Most popular recipes</string>
+    <string name="latte">Is a popular coffee drink made with one or two shots of espresso and a larger amount of steamed milk,
+        finished with a thin layer of foam.</string>
+    <string name="americano">Prepared by diluting an espresso with hot water, giving it a similar strength to,
+        but different flavor from, traditionally brewed coffee.</string>
+    <string name="frappe"></string>
 
     <!-- layout -->
     <string name="prompt_email">Email</string>

@@ -20,10 +20,11 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="109dp"
-            android:layout_height="117dp"
-            android:layout_marginTop="25dp"
-            app:srcCompat="@drawable/latte_macchiato_svgrepo_com" />
+            android:layout_width="91dp"
+            android:layout_height="102dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/frappe" />
 
         <TextView
             android:id="@+id/textView2"
@@ -32,7 +33,7 @@
             android:layout_marginStart="110dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/baloo"
-            android:text="Latte"
+            android:text="Frappe"
             android:textColor="@color/text_recipes"
             android:textSize="20sp" />
 
@@ -63,7 +64,7 @@
             android:layout_width="109dp"
             android:layout_height="117dp"
             android:layout_marginTop="25dp"
-            app:srcCompat="@drawable/latte_macchiato_svgrepo_com" />
+            app:srcCompat="@drawable/latte" />
 
         <TextView
             android:id="@+id/textView2"
@@ -83,7 +84,7 @@
             android:layout_marginStart="110dp"
             android:layout_marginTop="50dp"
             android:fontFamily="@font/alata"
-            android:text="A latte is a popular coffee drink made with one or two shots of espresso and a larger amount of steamed milk, finished with a thin layer of foam."
+            android:text="@string/latte"
             android:textSize="14sp" />
     </androidx.cardview.widget.CardView>
 
@@ -100,10 +101,11 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="109dp"
-            android:layout_height="117dp"
-            android:layout_marginTop="25dp"
-            app:srcCompat="@drawable/latte_macchiato_svgrepo_com" />
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/americano" />
 
         <TextView
             android:id="@+id/textView2"
@@ -112,7 +114,7 @@
             android:layout_marginStart="110dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/baloo"
-            android:text="Latte"
+            android:text="Americano"
             android:textColor="@color/text_recipes"
             android:textSize="20sp" />
 
@@ -123,7 +125,7 @@
             android:layout_marginStart="110dp"
             android:layout_marginTop="50dp"
             android:fontFamily="@font/alata"
-            android:text="A latte is a popular coffee drink made with one or two shots of espresso and a larger amount of steamed milk, finished with a thin layer of foam."
+            android:text="@string/americano"
             android:textSize="14sp" />
     </androidx.cardview.widget.CardView>
 
