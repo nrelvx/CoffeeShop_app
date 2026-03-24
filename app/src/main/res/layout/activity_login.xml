@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_container"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_login"
-    android:theme="@style/Widget.Theme.CoffeeShop.ButtonBar.Fullscreen"
-    tools:context=".LoginFragment">
+    tools:context=".LoginActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/passwordView"
@@ -110,18 +108,19 @@
             app:layout_constraintVertical_bias="1.0"
             tools:ignore="ContentDescription" />
 
-        <Button
-            android:id="@+id/log_in_btn"
-            android:layout_width="131dp"
-            android:layout_height="60dp"
-            android:layout_marginBottom="156dp"
-            android:backgroundTint="@color/text_login"
-            android:fontFamily="@font/palanquin_dark_semibold"
-            android:text="@string/log_in"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/log_in_btn"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="@color/text_login"
+        android:fontFamily="@font/palanquin_dark_semibold"
+        android:onClick="onClick"
+        android:text="@string/log_in"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>
