@@ -10,6 +10,8 @@
         but different flavor from, traditionally brewed coffee.</string>
     <string name="frappe">Originating in Greece. Versatile, iced beverage often shaken, blended, or beaten to produce a thick foam,
         typically made with instant coffee, sugar, milk, and ice. </string>
+    <string name="flat_white">Similar to a latte but with a higher ratio of coffee to milk, resulting in a stronger flavor.
+        It is typically made with a single or double shot of espresso and steamed milk, without the layer of foam found in a latte.</string>
 
     <!-- layout -->
     <string name="prompt_email">Email</string>
