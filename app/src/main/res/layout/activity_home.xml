@@ -177,48 +177,6 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardView_espresso"
-            android:layout_width="350dp"
-            android:layout_height="170dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginBottom="90dp"
-            app:cardCornerRadius="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardView_flat_white">
-
-            <TextView
-                android:id="@+id/espresso_dsc"
-                android:layout_width="227dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="110dp"
-                android:layout_marginTop="50dp"
-                android:fontFamily="@font/alata"
-                android:text="@string/espresso"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/text_espresso"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="110dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/baloo"
-                android:text="Espresso"
-                android:textColor="@color/text_recipes"
-                android:textSize="20sp" />
-
-            <ImageView
-                android:id="@+id/image_espresso"
-                android:layout_width="77dp"
-                android:layout_height="94dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="35dp"
-                app:srcCompat="@drawable/espresso" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
             android:id="@+id/cardView_flat_white"
             android:layout_width="350dp"
             android:layout_height="170dp"
@@ -323,7 +281,8 @@
                 android:layout_height="94dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="35dp"
-                app:srcCompat="@drawable/espresso" />
+                app:srcCompat="@drawable/espresso"
+                tools:ignore="ContentDescription" />
         </androidx.cardview.widget.CardView>
 
         <TextView
