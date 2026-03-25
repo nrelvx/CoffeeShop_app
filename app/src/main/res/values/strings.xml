@@ -12,6 +12,8 @@
         typically made with instant coffee, sugar, milk, and ice. </string>
     <string name="flat_white">Similar to a latte but with a higher ratio of coffee to milk, resulting in a stronger flavor.
         It is typically made with a single or double shot of espresso and steamed milk.</string>
+    <string name="espresso">A concentrated coffee beverage brewed by forcing hot water through finely-ground coffee beans.
+        It serves as the base for many popular coffee drinks.</string>
 
     <!-- layout -->
     <string name="prompt_email">Email</string>
