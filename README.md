@@ -10,7 +10,7 @@ A cozy coffee recipe app built with love and Android ☕❤️
 ## 🛠 Tech Stack
 - **Language:** Java ☕
 - **UI:** XML + Material Design Components 🎨
-- **Navigation:** Android Fragments, BottomNavigationView 🧭
+- **Navigation:** Drawable, BottomNavigationView 🧭
 - **Build:** Gradle (Kotlin DSL) ⚙️
 
 
