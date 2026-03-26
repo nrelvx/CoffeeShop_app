@@ -2,9 +2,6 @@
 
 A cozy coffee recipe app built with love and Android ☕❤️
 
-## ⚠️ Project Status
-🚧 **Still in development** — New features coming soon! 🚧
-
 ## ✨ Features
 - User authentication (login screen) 
 - Main screen with bottom navigation 
