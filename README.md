@@ -6,9 +6,9 @@ A cozy coffee recipe app built with love and Android ☕❤️
 🚧 **Still in development** — New features coming soon! 🚧
 
 ## ✨ Features
-- ✅ User authentication (login screen) — done
-- ⏳ Main screen with bottom navigation — in progress
-- ⏳ Coffee recipes list — in progress
+- User authentication (login screen) 
+- Main screen with bottom navigation 
+- Coffee recipes list
 
 ## 🛠 Tech Stack
 - **Language:** Java ☕
